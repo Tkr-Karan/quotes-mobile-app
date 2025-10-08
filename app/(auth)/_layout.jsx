@@ -15,6 +15,8 @@ export default function AuthLayout() {
         name="register"
         options={{
           title: "Sign Up",
+          headerBackVisible: false,
+          headerShown: false,
         }}
       />
     </Stack>
